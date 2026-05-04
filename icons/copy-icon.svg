@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="13"
+    height="13"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+>
+    <path d="M16 1H4C3 1 2 2 2 3v14h2V3h12V1zm3 4H8C7 4 6 5 6 6v14c0 1 1 2 2 2h11c1 0 2-1 2-2V6c0-1-1-2-2-2zm0 16H8V6h11v15z" />
+</svg>
