@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+    /* Base */
+    --color-bg-primary: #efe5d7;
+    --color-bg-secondary: #f5efe6;
+    --color-surface: #e2d6c2;
+
+    --color-text-secondary: #2d260e;
+    --color-text-primary: #6b3e2e;
+    --color-text-thridary: #2d260e;
+
+    /* Brand / Core */
+    --color-primary: #2d260e;
+    --color-primary-soft: #8c6a3c;
+
+    /* Accents (warm) */
+    --color-accent-main: #a67c52;
+    --color-accent-soft: #c2a878;
+    --color-accent-strong: #b85c38;
+    --color-accent-red: #a94438;
+
+    /* Success (green) */
+    --color-success-bg: #9db38e;
+    --color-success-label-bg: #e8ede4;
+    --color-success-label-text: #253f1e;
+    --color-success-text: #1e3a18;
+
+    /* Error (red) */
+    --color-error-bg: #d4918a;
+    --color-error-label-bg: #f5e4e2;
+    --color-error-label-text: #6b2820;
+    --color-error-text: #5c1a14;
+
+    /* Contrast / balance */
+    --color-contrast-dark: #3e4a3f;
+    --color-contrast-cool: #7d8ca3;
+
+    /* Utility */
+    --color-border: #d6c7b2;
+    --color-shadow: #2d260e26;
+
+    /* Overlays */
+    --color-overlay-beige: #c2a87872;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.info-container {
+    width: 95%;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+@media (min-width: 970px) {
+    .info-container {
+        width: 90%;
+    }
+}
+@media (min-width: 1180px) {
+    .info-container {
+        width: 75%;
+    }
+}
